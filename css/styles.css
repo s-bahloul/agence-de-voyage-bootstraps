@@ -1,0 +1,15 @@
+#partie-1-section{
+    background-image: url("../img/face-beauty.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 400px;
+}
+
+#partie-4-section{
+background-image: url(../img/Rectangle_822_copy.jpg);
+height: 250px;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+}

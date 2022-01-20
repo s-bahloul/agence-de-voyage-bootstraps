@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <!--lein vers css-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/responsives.css">
+    <!--compatiblité avec internet edge-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--controle ma mise en page sur mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">-->
+   <link  rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link rel="stylesheet" href="css/responsives.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="css/bootstrap-utilities.css">
+    <link rel="stylesheet" href="css/bootstrap-utilities.min.css">
+    <link rel="stylesheet" href="css/bootstrap-utilities.rtl.min.css">
+    <title>Beauty.com l'instant beauté </title>
+</head>
+<body>
+  <!--NAVBAR de couleur blanche-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light ">
+    <!--Elle prend 100% de la page via la classe container-fluid-->
+    <div class="container-fluid">
+        <!--Un liens + le logo voyage.com-->
+        <a class="navbar-brand" href="#">
+            <img src="img/logoCS 2.png" alt="beauty.com" title="Beauty.com" width="20%">
+        </a>
+        <!--Bouton burger caché par defaut(devient apparant quand ecran <= 768px) -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!--Une liste avec les liens de navigation-->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <!--Liens dropdown qui s'ouve au clic grace a javascript-->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                       Produits Tendance
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Rouge à lèvres</a></li>
+                        <li><a class="dropdown-item" href="#">Vervis à ongle</a></li>
+                        <li><a class="dropdown-item" href="#">crémes éclat</a></li>
+                        <li><a class="dropdown-item" href="#">Eyeliner</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Boîte compacte</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Nouvelle Arrivage</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Best-Seller</a>
+                </li>
+            </ul>
+            <!--2 boutons + barre de recherche sur la droite -->
+            <form class="d-flex" id="right-nav">
+                <a class="nav-link" href="#">Connexion</a>
+                <a href="" id="incription" class="mr-3 btn btn-outline-warning" type="submit">Inscription</a>
+                <input class="ml-3 form-control me-2" type="search" placeholder="Rechercher" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Rechercher</button>
+            </form>
+        </div>
+    </div>
+</nav> 
+<!--section 1-->
+
+<div id="section-1" class="container-fluid">
+    <section id="partie-1-section" class=" container pd-lg-5">
+        <article id="art-section1" class="text-right pt-3 ">
+                    <h1 class=" text-danger titre-h1">Créme Salon De Beauté</h1>
+                    <h4 class="font-weight-normal titre-h4">Nouvelle Créme Shinner Pour La<br> Peau disponible dés aujourd'hui</h4>
+                    <h4 class=" font-italic titre-h4"></h4>
+                    <h6 class="font-italic text-secondary">Découvrez nos services de qualité </h6>
+                    <h6 class="font-italic text-secondary">Une équipe d'esthéticiennes diplômées</h6>
+        </article>
+        <div class="img-fluid text-right mr-5 mt-4">
+            <img src="img/logoCS 2.png" class="figure-img img-fluid rounded " alt="beauty.com" title="Beauty.com" width="10%">
+        </div>
+    </section>
+</div>
+<!--section 2-->
+
+<div class="mt-lg-5 container-fluid">
+    <section id="section-2">
+    <div class="mt-lg-5 container">
+        <div class="mt-3 row gx-2 text-center">
+            <div class="col-md-6 col-sm-12 px-2">
+                <figure class="figure-s2">
+                    <img src="img/banner1.jpg" class="figure-img img-fluid rounded" alt="kit beaute" title="kit beauté">
+                    <figcaption class="figure-caption">
+                        <h3 class="titre-h3">Produits de beauté</h3>
+                        <h5 class="titre-h5">Kit à moitié prix</h5>
+                    </figcaption>
+                </figure>     
+            </div>
+            <div class="col-md-6 col-sm-12 px-2">
+                <figure class="figure-s2">
+                    <img src="img/banner2.jpg" class="figure-img img-fluid rounded" alt="vernis ongle" title="Vernis à ongle">
+                    <figcaption class="figure-caption">
+                        <h3 class="titre-h3">Vernis à ongle</h3>
+                        <h5 class="titre-h5">50 % Aujourd'hui</h5>  
+                    </figcaption>
+                </figure> 
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+<!--section 3-->
+<div class="mt-lg-5 container-fluid">
+    <section id="section-3">
+        <!--Bloc de titre centrer grace a class text-center -->
+        <div class="text-center">
+            <h1 class="titre-h1">PRINCIPALES CATÉGORIES</h1>
+            <h4 class="titre-h4">Les Meilleurs Accessoires Pour Hommes Et Femmes</h4>
+        </div>
+        <div class="container mt-lg-5">
+            <div class="mt-3 row gx-2 text-center">
+                <div class="col-md-3 col-sm-12 px-2">
+                    <figure class="figure catgories-figure">
+                        <img src="img/1.jpg" class="figure-img img-fluid rounded" alt="eyelner" title="Eyeliner">
+                        <figcaption class="figure-caption">
+                            <p class="font-weight-bold fs-4">Eyeliner</p>
+                        </figcaption>
+                    </figure>
+                </div> 
+                <div class="col-md-3 col-sm-12 px-2">
+                    <figure class="figure catgories-figure">
+                        <img src="img/2.jpg" class="figure-img img-fluid rounded" alt="creme" title="Crémes Eclat">
+                        <figcaption class="figure-caption">
+                            <p class="font-weight-bold fs-4">Crèmes Eclat</p>
+                        </figcaption>
+                    </figure>
+                </div> 
+                <div class="col-md-3 col-sm-12 px-2">
+                    <figure class="figure catgories-figure">
+                        <img src="img/3.jpg" class="figure-img img-fluid rounded" alt="boite compacte" title="Boîte Compacte">
+                        <figcaption class="figure-caption">
+                            <p class="font-weight-bold fs-4">Boîte Compacte</p>
+                        </figcaption>
+                    </figure>
+                </div> 
+                <div class="col-md-3 col-sm-12 px-2">
+                    <figure class="figure catgories-figure">
+                        <img src="img/4.jpg" class="figure-img img-fluid rounded" alt="rouge levres" title="Rouge à Lèvres">
+                        <figcaption class="figure-caption">
+                            <p class="font-weight-bold fs-4">Rouge à Lèvres</p>
+                        </figcaption>
+                    </figure>
+                </div> 
+            </div>
+        </div>
+    </section>
+</div> 
+<!--section 4-->
+<div id="section-4" class="container-fluid">
+    <section id="partie-4-section" class="pd-lg-5">
+        <article id="art-section4" class="text-center pt-4 text-white">
+                    <h4 class=" font-italic titre-h4">Braderie</h4>
+                    <h1>JUSQU'A 70 % DE REDUCTION</h1>
+        </article>
+        <div class="btn-s1 text-center pt-5">
+            <!--Un bouton jaune-->
+            <button class="btn b-rose btn-outline-secondary">ACHETEZ MAINTENANT</button>
+            </div>
+    </section>
+</div>
+<!--footer-->
+<div class="mt-lg-5 container-fluid">
+    <div class="container mt-lg-5">
+        <div class="mt-3 row gx-2 text-center">
+
+            <div class="col-md-4 col-sm-12 px-2">
+                <figure class="figure catgories-figure">
+                    <img src="img/delivery-icon-png-.jpg" class="figure-img img-fluid rounded" alt="livraison" title="Livraison" width="80px">
+                    <figcaption class="figure-caption">
+                        <h4 class="font-weight-bold">Livraison Gratuite</h4>
+                        <p class="text-right text-center">Livraison gratuite sur <br>toute commande en France</p>
+                    </figcaption>
+                </figure>
+            </div> 
+            <div class="col-md-4 col-sm-12 px-2">
+                <figure class="figure catgories-figure">
+                    <img src="img/kisspng-united-contact-icons-png-.jpg" class="figure-img img-fluid rounded" alt="contact" title="Contact" width="60px">
+                    <figcaption class="figure-caption">
+                        <h4 class="font-weight-bold">Assistance 24h/24 Et<br>7j/7</h4>
+                        <p class="text-right text-center"> Contactez-nous 24h/24</p>
+                    </figcaption>
+                </figure>
+            </div> 
+            <div class="col-md-4 col-sm-12 px-2">
+                <figure class="figure catgories-figure">
+                    <img src="img/Icone-CB.png" class="figure-img img-fluid rounded" alt="boite compacte" title="Boîte Compacte" width="100px">
+                    <figcaption class="figure-caption">
+                        <h4 class="font-weight-bold">Paiement Sécurisé</h4>
+                        <p class="text-right text-center">Nous assurons le paiement<br>sécurisé</p>
+                    </figcaption>
+                </figure>
+            </div> 
+       </div>
+    </div>        
+</div>
+
+</body>
+</html>

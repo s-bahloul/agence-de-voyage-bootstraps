@@ -1,0 +1,12 @@
+
+@media (max-width: 768px) { 
+
+    #art-section1{
+text-align: center;
+
+}
+
+img.figure-img.img-fluid.rounded{
+    width: 100px;
+    
+}
