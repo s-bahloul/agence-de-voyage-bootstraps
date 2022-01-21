@@ -65,21 +65,32 @@
             </ul>
             <!--2 boutons + barre de recherche sur la droite -->
             <form class="d-flex" id="right-nav">
-                <a class="nav-link" href="#">Connexion</a>
+                <a class="nav-link" href="page3.html">Connexion</a>
                 <a href="" id="incription" class="mr-3 btn btn-outline-warning" type="submit">Inscription</a>
                 <input class="ml-3 form-control me-2" type="search" placeholder="Rechercher" aria-label="Search">
                 <button class="btn btn-outline-success" type="submit">Rechercher</button>
             </form>
         </div>
     </div>
-</nav> 
+</nav>
+<div id="contour-rose" class="container-fluid bg-danger py-2"> 
+    
+    <input class="form-control" list="liste-données" id="catalogue" placeholder="Recherche dans notre catalogue">
+    <datalist id="liste-données">
+        <option value="Rouge à lèvres">
+        <option value="Eyeliner">
+        <option value="Boite Compacte">
+        <option value="Crèmes Eclat">
+        <option value="vernis à Ongles">
+    </datalist>
+</div>
 
 <!--section 1-->
 
 <div id="section-1" class="container-fluid">
     <section id="partie-1-section" class=" container pd-lg-5">
         <article id="art-section1" class="text-right pt-3 ">
-                    <h1 class=" text-danger titre-h1">Créme Salon De Beauté</h1>
+                    <h1 id="text-rose" class="titre-h1">Créme Salon De Beauté</h1>
                     <h4 class="font-weight-normal titre-h4">Nouvelle Créme Shinner Pour La<br> Peau disponible dés aujourd'hui</h4>
                     <h4 class=" font-italic titre-h4"></h4>
                     <h6 class="font-italic text-secondary">Découvrez nos services de qualité </h6>

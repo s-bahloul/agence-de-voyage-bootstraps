@@ -13,3 +13,9 @@ background-size: cover;
 background-repeat: no-repeat;
 background-position: center center;
 }
+#contour-rose{
+    background-color:  #fd40bb !important;
+}
+#text-rose{
+    color:#fd40bb !important;
+}
